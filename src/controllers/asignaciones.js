@@ -1,4 +1,4 @@
-const Asignacion = require('../modules/asignacion')
+const Asignacion = require('../models/asignacion')
 
 // READ
 function obtenerAsignaciones(req, res){

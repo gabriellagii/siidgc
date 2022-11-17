@@ -1,5 +1,5 @@
 const passport = require('passport');
-const Usuario = require('../modules/usuario');
+const Usuario = require('../models/Usuario');
 
 function login (req, res){
     const correo = req.body.correo;

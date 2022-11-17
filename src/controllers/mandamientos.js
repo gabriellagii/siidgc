@@ -1,4 +1,4 @@
-const Mandamiento = require('../modules/mandamiento')
+const Mandamiento = require('../models/mandamiento')
 
 // READ
 function obtenerMandamientos(req, res){
